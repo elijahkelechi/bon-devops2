@@ -1,6 +1,8 @@
 import { nanoid } from "nanoid";
 import { FaGlobe, FaMobileAlt, FaWordpress } from "react-icons/fa";
 import mlbImage from "./assets/mlb.png";
+import beautyImage from "./assets/beauty.png";
+import gitech from "./assets/gitech.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -37,15 +39,15 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: "https://res.cloudinary.com/drg9uyqf9/image/upload/v1730812871/carousel-images/tmp-2-1730812870624_x8jmrl.png",
-    url: "https://sonnatrendy.vercel.app/",
+    img: `${beautyImage}`,
+    url: "https://beautytrendy.vercel.app/",
     github: "https://github.com/john-smilga",
     title: "E-commerce projects",
     text: "This e-commerce platform offers a seamless shopping experience where customers can easily browse products, add items to their cart, and securely complete their purchase in just a few clicks. The site is optimized for speed, ensuring fast loading times and a user-friendly interface for both desktop and mobile users",
   },
   {
     id: nanoid(),
-    img: "https://res.cloudinary.com/drg9uyqf9/image/upload/v1730812930/carousel-images/tmp-3-1730812929255_fpia6v.png",
+    img: `${gitech}`,
     url: "https://giitech-solutions-drone-site.vercel.app/",
     github: "https://github.com/john-smilga",
     title: "Giitech Drones",
